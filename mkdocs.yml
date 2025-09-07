@@ -1,0 +1,30 @@
+site_name: CORE
+site_description: Community Obsidian Resource Exchange
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Notes:
+      - Foundations:
+          - Networking Basics: notes/foundations/networking-basics.md
+          - Linux CLI Basics: notes/foundations/linux-cli-basics.md
+          - Ethics & Legal Basics: notes/foundations/ethics.md
+      - Programming:
+          - Python Intro: notes/programming/python-intro.md
+          - JavaScript Intro: notes/programming/javascript-intro.md
+      - Security:
+          - Blue Team:
+              - Log Analysis Basics: notes/security/blue-team/log-analysis-basics.md
+          - Red Team:
+              - Recon (Lab Only): notes/security/red-team/lab-only-recon.md
+          - Cryptography:
+              - Crypto Basics: notes/security/cryptography/crypto-basics.md
+      - AI & ML:
+          - Intro to ML: notes/ai-ml/intro-to-ml.md
