@@ -1,13 +1,9 @@
-site_name: CORE
-site_description: Community Obsidian Resource Exchange
+site_name: CORE — Community Obsidian Resource Exchange
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.highlight
-    - search.share
-    - toc.integrate
+
+# Tell MkDocs: my Markdown files are in the root folder (.)
+docs_dir: .
 
 nav:
   - Home: index.md
@@ -20,11 +16,8 @@ nav:
           - Python Intro: notes/programming/python-intro.md
           - JavaScript Intro: notes/programming/javascript-intro.md
       - Security:
-          - Blue Team:
-              - Log Analysis Basics: notes/security/blue-team/log-analysis-basics.md
-          - Red Team:
-              - Recon (Lab Only): notes/security/red-team/lab-only-recon.md
-          - Cryptography:
-              - Crypto Basics: notes/security/cryptography/crypto-basics.md
+          - Blue Team / Log Analysis Basics: notes/security/blue-team/log-analysis-basics.md
+          - Red Team / Recon (Lab-only): notes/security/red-team/lab-only-recon.md
+          - Crypto Basics: notes/security/cryptography/crypto-basics.md
       - AI & ML:
           - Intro to ML: notes/ai-ml/intro-to-ml.md
