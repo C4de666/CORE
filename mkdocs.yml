@@ -1,0 +1,39 @@
+site_name: CORE — Community Obsidian Resource Exchange
+site_description: Open, community-driven learning resources for computer science, cybersecurity, cloud, and AI
+site_author: CORE Community
+
+docs_dir: Docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
+  - Beginner:
+      - Computer Science:
+          - What is a Computer?: notes/beginner/cs/what-is-a-computer.md
+      - Linux: []
+      - Networking: []
+      - Git: []
+
+  - Intermediate:
+      - Web: []
+      - Databases: []
+      - Cloud: []
+      - Security: []
+
+  - Advanced:
+      - Red Teaming: []
+      - Cloud Security: []
+      - Malware: []
+      - AI: []
+
+  - Labs: notes/labs/
+  - Cheatsheets: notes/cheatsheets/
