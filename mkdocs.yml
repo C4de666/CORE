@@ -14,11 +14,11 @@ theme:
     - content.code.copy
 
 nav:
-  - Home: Docs/index.md
+  - Home: index.md
 
   - Beginner:
       - Computer Science:
-          - What is a Computer?: notes/beginner/cs/what-is-a-computer.md
+          - What is a Computer?: ../notes/beginner/cs/what-is-a-computer.md
       - Linux: []
       - Networking: []
       - Git: []
@@ -35,8 +35,8 @@ nav:
       - Malware: []
       - AI: []
 
-  - Labs: notes/labs/
-  - Cheatsheets: notes/cheatsheets/
+  - Labs: ../notes/labs/index.md
+  - Cheatsheets: ..notes/cheatsheets/index.md
 
 markdown_extensions:
   - admonition
