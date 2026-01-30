@@ -37,3 +37,9 @@ nav:
 
   - Labs: notes/labs/
   - Cheatsheets: notes/cheatsheets/
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
