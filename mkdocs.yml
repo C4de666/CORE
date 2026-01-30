@@ -2,7 +2,7 @@ site_name: CORE — Community Obsidian Resource Exchange
 site_description: Open, community-driven learning resources for computer science, cybersecurity, cloud, and AI
 site_author: CORE Community
 
-docs_dir: .
+docs_dir: Docs
 site_dir: site
 
 theme:
