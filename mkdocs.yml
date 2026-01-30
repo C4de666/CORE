@@ -2,7 +2,8 @@ site_name: CORE — Community Obsidian Resource Exchange
 site_description: Open, community-driven learning resources for computer science, cybersecurity, cloud, and AI
 site_author: CORE Community
 
-docs_dir: Docs
+# IMPORTANT: include notes/ in the build
+docs_dir: .
 site_dir: site
 
 theme:
@@ -14,31 +15,31 @@ theme:
     - content.code.copy
 
 nav:
-  - Home: index.md
-  
-  - Roadmap: roadmap.md
+  - Home: Docs/index.md
+  - Roadmap: Docs/roadmap.md
+  - About: Docs/about.md
 
   - Beginner:
       - Computer Science:
-          - What is a Computer?: ../notes/beginner/cs/what-is-a-computer.md
-      - Linux: []
-      - Networking: []
-      - Git: []
+          - What is a Computer?: notes/beginner/cs/what-is-a-computer.md
+      - Linux: notes/beginner/linux/index.md
+      - Networking: notes/beginner/networking/index.md
+      - Git: notes/beginner/git/index.md
 
   - Intermediate:
-      - Web: []
-      - Databases: []
-      - Cloud: []
-      - Security: []
+      - Web: notes/intermediate/web/index.md
+      - Databases: notes/intermediate/databases/index.md
+      - Cloud: notes/intermediate/cloud/index.md
+      - Security: notes/intermediate/security/index.md
 
   - Advanced:
-      - Red Teaming: []
-      - Cloud Security: []
-      - Malware: []
-      - AI: []
+      - Red Teaming: notes/advanced/red-teaming/index.md
+      - Cloud Security: notes/advanced/cloud-security/index.md
+      - Malware: notes/advanced/malware/index.md
+      - AI: notes/advanced/ai/index.md
 
-  - Labs: ../notes/labs/index.md
-  - Cheatsheets: ..notes/cheatsheets/index.md
+  - Labs: notes/labs/index.md
+  - Cheatsheets: notes/cheatsheets/index.md
 
 markdown_extensions:
   - admonition
